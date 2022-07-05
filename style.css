@@ -1,0 +1,35 @@
+.imageborder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    height:auto;
+    width: 500px;
+    border-radius: 12px;
+}
+
+ul {
+    display: inline-table;
+    position: relative;
+    left: 50%; transform: translateX(-50%);
+    width: 165px; height: auto;
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: tan;
+    color: darkslategray;
+    overflow: hidden;
+
+}
+
+div {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: auto;
+    
+}
+
+body {
+    background-color: bisque;
+    margin: 0 auto;
+}
